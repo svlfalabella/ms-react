@@ -1,0 +1,22 @@
+.navbar{
+  height: 90px;
+  background: $white;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .item-1{
+    align-self: center;
+    width: 200px;
+    padding: 20px;
+  }
+
+  .item-2{
+    align-self: center;
+    padding: 0 20px 0 0;
+    letter-spacing: 2px;
+  }
+
+}

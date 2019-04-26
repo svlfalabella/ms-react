@@ -1,6 +1,5 @@
+@import '_reset';
+@import '_constant';
 @import '_titles';
 @import '_tech.scss';
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 5%;
-}
+@import '_navbar';
