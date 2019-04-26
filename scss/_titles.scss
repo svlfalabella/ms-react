@@ -1,0 +1,16 @@
+@import '_constant';
+
+.title {
+  display: flex;
+
+  img {
+    height: 200px;
+    width: 200px;  
+  }
+
+  span {
+    font-size: $text-big;
+    align-self: center;
+    text-indent: -55px;
+  }
+}
