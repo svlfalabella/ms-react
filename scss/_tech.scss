@@ -1,10 +1,10 @@
-.parent-card{
+.parent-card {
   display: flex;
   flex-flow: row wrap;
   margin: 5%;
 
-  .card{
-    .outer-tech{
+  .card {
+    .outer-tech {
       border: 1px solid $primary-green;
       border-radius: 15px;
       padding: 10px;
@@ -13,11 +13,11 @@
       height: 380px;
       transition: all .5s ease;
 
-        &:hover{
+        &:hover {
           transform: translate(30px,30px);
         }
 
-        .tech{
+        .tech {
           position: absolute;
           width: 270px;
           height: 400px;
@@ -29,7 +29,7 @@
           border-radius: 15px;
           transition: all .5s ease;
 
-          &:hover{
+          &:hover {
             transform: translate(-30px,-30px);
           }
 
@@ -38,15 +38,15 @@
             width: 100px;
           }
 
-          .tech-heading{
+          .tech-heading {
             font-weight: 300;
           }
 
-          .tech-release{
+          .tech-release {
             font-weight: 900;
           }
 
-          .tech-description{
+          .tech-description {
             margin: 0px 20px;
             text-align: center; 
             flex-basis: 30%;
